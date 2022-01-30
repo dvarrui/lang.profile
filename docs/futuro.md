@@ -2,7 +2,7 @@
 
 # El futuro
 
-_"El futuro Dios dirá", pero... si tenemos que decir que espero ver en el futuro... yo diría lo siguiente:_
+_"El futuro Dios dirá", pero... si tenemos que decir ¿qué espero ver en el futuro...? yo diría lo siguiente..._
 
 * **Felicidad**: De momento tengo interés y curiosidad con esta idea. Me hace feliz. Entonces pronostico que por lo menos llegará a la versión 0.3.
 * **Concretar definiciones**: Hay que definir mejor las "features" de SOFA para reducir las ambigüedades. Para ello se incluirán ejemplos demostrativos, de modo que los programadores puedan validar su conocimiento de la "feature".
