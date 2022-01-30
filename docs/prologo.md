@@ -1,9 +1,14 @@
+[HOME <<](../README.md) | [HOME](../README.md) | [>> El origen](origen.md)
 
-# Antecedentes
+# Prólogo
+
+_(No lo voy a escribir yo. Dejo este hueco por si algún/a amigo/a le apetece completarlo)_
+
+# El origen
 
 El 5 de noviembre de 1955, Doc Brow tiene la idea del "condensador de fluzo", el invento que hizo posible los viajes en el tiempo junto a su amigo Marty McFly (Regreso al Futuro).
 
-Si, es una película (Muy buena por cierto) pero ahora vamos a hablar de otra fecha. El 20 de enero de 2022. Curiósamente también es la fecha en la que pasan a dominio público las obras publicadas hace 100 años. ¡Curioso!
+Si, es una película (Muy buena por cierto) pero ahora vamos a hablar de otra fecha. El 20 de enero de 2022. Curiosamente también es la fecha en la que pasan a dominio público las obras publicadas hace 100 años. ¡Curioso!
 
 La primera publicación de la propuesta de la unidad SOFA v0.1 se hace en esa fecha, de forma un tanto precipitada puesto que se tenían muchas ideas locas en la cabeza, y todavía estaban "calientes" las conversaciones que habían tenido lugar los días previos con los compañeros del grupo GULIC de Telegram. De alguna "friki-manera", esas conversaciones, intensas en algunos momentos, pero muy interesantes, ayudaron a que naciera la idea de la unidad de medida SOFAv0.1.
 
