@@ -19,6 +19,7 @@ El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
 1. [El paradigma de Frankenstein](docs/paradigma-frankenstein.md)
 1. [La unidad de medida SOFA](docs/sofa.md)
 1. [Conclusiones](docs/conclusiones.md)
+1. [El futuro](docs/futuro.md)
 
 # Contacto
 

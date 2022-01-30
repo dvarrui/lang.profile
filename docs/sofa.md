@@ -1,7 +1,9 @@
+[Paradigma de Frankenstein <<](paradigma-frankenstein.md) | [HOME](../README.md) | [>> El futuro](futuro.md)
+
+
+# La unidad de medida SOFA
 
 ![](images/logo.png)
-
-# Proyecto: SOFA (versión 1.0)
 
 ## Antecedentes
 
