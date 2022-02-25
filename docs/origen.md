@@ -1,4 +1,4 @@
-[Prólogo <<](prologo.md) | [HOME](../README.md) | [>> Antecedentes](antecedentes.md)
+[<< Prólogo](prologo.md) | [HOME](../README.md) | [Antecedentes >>](antecedentes.md)
 
 # El origen
 

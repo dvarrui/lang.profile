@@ -1,4 +1,4 @@
-[back <<](prologo.md) | [HOME](../README.md) | [>> El origen](origen.md)
+[<< back](prologo.md) | [HOME](../README.md) | [El origen >>](origen.md)
 
 # Prólogo
 

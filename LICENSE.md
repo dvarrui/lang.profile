@@ -1,4 +1,4 @@
-[back <<](README.md) | [HOME](README.md) | [>> Prólogo](docs/prologo.md)
+[<< back](README.md) | [HOME](README.md) | [Prólogo >>](docs/prologo.md)
 
 
 # LICENCIA
