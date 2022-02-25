@@ -16,7 +16,6 @@ Los objetivos del proyecto **frankenstein.lang** son:
 1. [Licencia](LICENSE.md)
 1. [Prólogo](docs/prologo.md)
 1. [El origen](docs/origen.md)
-1. [Antecedentes](docs/antecedentes.md)
 1. [Descripción](docs/descripcion.md)
 1. [Objetivos](docs/objetivos.md)
 1. [La técnica fenicia](docs/tecnica-fenicia.md)

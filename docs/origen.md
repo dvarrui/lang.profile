@@ -9,9 +9,9 @@ Si, es una película (Muy buena por cierto) pero ahora vamos a hablar de otra fe
 La primera publicación de la propuesta de la unidad SOFA v0.1 se hace en esa fecha, de forma un tanto precipitada puesto que se tenían muchas ideas locas en la cabeza, y todavía estaban "calientes" las conversaciones que habían tenido lugar los días previos con los compañeros del grupo GULIC de Telegram. De alguna "friki-manera", esas conversaciones, intensas en algunos momentos, pero muy interesantes, ayudaron a que naciera la idea de la unidad de medida SOFAv0.1.
 
 A posteriori, analizando en "frio" las críticas constructivas... surge las ideas de:
-* Unidad de medida SOFA v0.2
-* El paradigma de Frankenstein
 * La técnica fenicia.
+* El paradigma de Frankenstein
+* Unidad de medida SOFA v0.2
 
 Como tengo todo esto en mi cabeza, y necesito "espacio", es por lo que tengo
 que empezar... es por lo que se empieza... a escribir estas líneas que se han convertido en hojas y a posteriori en una base de datos y un programa de recogida de información... ¡uff!
