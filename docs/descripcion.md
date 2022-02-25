@@ -1,7 +1,7 @@
 
-[<< back](../README.md)
+[<< back](origen.md) | [HOME](../README.md) | [Objetivos >>](objetivos.md)
 
-# frankenstein.lang (version 0.2)
+# El problema
 
 ```
 Pregunta: ¿Qué es **frankenstein.lang**?
@@ -13,7 +13,7 @@ P: ¿Eh? ¿Qué es eso?
 ```
 
 Un desarrollador o programador medio llegar a manejar/controlar entre 2 y 5 (quizás más) lenguajes de programación. Al usar correctamente un lenguaje de programación X, entramos en un modo de pensamiento X.
-Todos los lenguajes de programación son igualmente válidos, pero existen diferencias en sus características (igual que pasa con las personasl), y estas diferencias no los hacen ni mejor, ni peor.
+Todos los lenguajes de programación son igualmente válidos, pero existen diferencias en sus características (igual que pasa con las personas), y estas diferencias no los hacen ni mejor, ni peor.
 
 Habitualmente los programadores noveles suelen preguntar ¿Cuál es el mejor lenguaje de programación?
 
