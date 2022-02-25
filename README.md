@@ -6,10 +6,10 @@
 Este proyecto, es un intento de crear una especie de _"piedra roseta"_ para los lenguajes de programación. Esto, no quiere decir que sabiendo un lenguaje X, vamos automáticamente a saber programar en el lenguaje Y. ¡No! ¡Esto no funciona así!
 
 Los objetivos del proyecto **frankenstein.lang** son:
-1. **Mejorar la comunicación** entre un programador del lenguaje X y otro del lenguaje Y. Con esto reducimos los tiempos de resolución de las discusiones/debates.
+1. **Establecer definiciones no ambiguas** de los términos asociados a los lenguajes de programación (en la medida de lo posible) que nos permitan unificar la visión que tenemos de los mismos.
 1. **Identificar similitudes y diferencias** entre el lenguaje de programación X y el lenguaje Y. Esto nos da una visión panorámica de un lenguaje antes de aprenderlo.
+1. **Mejorar la comunicación** entre un programador del lenguaje X y otro del lenguaje Y. Con esto reducimos los tiempos de resolución de las discusiones/debates.
 1. **Identificar que aspectos** del lenguaje X son más **difíciles de entender** por la propia comunidad X o por los nuevos aprendices.
-1. **Establecer definiciones no ambiguas** de los términos asociados a los lenguajes de programación que nos permita unificar la visión que tenemos de los mismos.
 
 # Contenidos
 

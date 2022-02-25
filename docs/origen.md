@@ -20,5 +20,3 @@ Sé que todo esto puede ser "difícil" o aburrido de leer. :-)
 Así que de forma deliberada y consciente he aderezado el texto serio con anécdotas y personajes de ficción para que tome un aspecto más entretenido, a la par que didáctico (o eso espero).
 
 Bueno. Vamos poco a poco, desde el principio.
-
-[Prólogo <<](prologo.md) | [HOME](../README.md) | [>> Antecedentes](antecedentes.md)
