@@ -3,31 +3,13 @@
 
 # frankenstein.lang (version 0.2)
 
-```
-Pregunta: ¿Qué es **frankenstein.lang**?
-Respuesta: mmm Es el nombre de este "proyecto".
-P: ¡Si, claro! ¿Pero puedes explicarlo un poco?
-R: El proyecto frankenstein.lang es el resultado de buscar una solución al problema
-   de comunicación entre "mundos lang" diferentes.
-P: ¿Eh? ¿Qué es eso?
-```
+Este proyecto, es un intento de crear una especie de _"piedra roseta"_ para los lenguajes de programación. Esto, no quiere decir que sabiendo un lenguaje X, vamos automáticamente a saber programar en el lenguaje Y. ¡No! ¡Esto no funciona así!
 
-Un desarrollador o programador medio llegar a manejar/controlar entre 2 y 5 (quizás más) lenguajes de programación. Al usar correctamente un lenguaje de programación X, entramos en un modo de pensamiento X.
-Todos los lenguajes de programación son igualmente válidos, pero existen diferencias en sus características (igual que pasa con las personasl), y estas diferencias no los hacen ni mejor, ni peor.
-
-Habitualmente los programadores noveles suelen preguntar ¿Cuál es el mejor lenguaje de programación?
-
-Realmente lo que implícitamente están preguntando es...
-1. Quiero aprender a programar.
-2. Quiero optimizar mi tiempo al máximo o por lo menos no quiero perderlo invertigando.
-3. ¿A qué lenguaje le dedico mi tiempo y esfuerzo?
-
-
-El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
-
-
-# Descripción
-
+Los objetivos del proyecto **frankenstein.lang** son:
+1. **Mejorar la comunicación** entre un programador del lenguaje X y otro del lenguaje Y. Con esto reducimos los tiempos de resolución de las discusiones/debates.
+1. **Identificar similitudes y diferencias** entre el lenguaje de programación X y el lenguaje Y. Esto nos da una visión panorámica de un lenguaje antes de aprenderlo.
+1. **Identificar que aspectos** del lenguaje X son más **difíciles de entender** por la propia comunidad X o por los nuevos aprendices.
+1. **Establecer definiciones no ambiguas** de los términos asociados a los lenguajes de programación que nos permita unificar la visión que tenemos de los mismos.
 
 # Contenidos
 
@@ -35,6 +17,7 @@ El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
 1. [Prólogo](prologo.md)
 1. [El origen](origen.md)
 1. [Antecedentes](docs/antecedentes.md)
+1. [Descripción](docs/descripcion.md)
 1. [Objetivos](docs/objetivos.md)
 1. [La técnica fenicia](docs/tecnica-fenicia.md)
 1. [El paradigma de Frankenstein](docs/paradigma-frankenstein.md)
@@ -44,4 +27,4 @@ El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
 
 # Contacto
 
-EMAIL: dvarrui@protonmail.com
+* Email: dvarrui@protonmail.com

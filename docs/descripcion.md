@@ -1,5 +1,5 @@
 
-![CC_BY-NC-SA](images/by-nc-sa.svg)
+[<< back](../README.md)
 
 # frankenstein.lang (version 0.2)
 
