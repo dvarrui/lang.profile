@@ -3,9 +3,10 @@
 
 ```
 EN CONSTRUCCIÓN!!!
+(version 0.2)
 ```
 
-# frankenstein.lang (version 0.2)
+# frankenstein.lang
 
 Este proyecto, es un intento de crear una especie de _"piedra roseta"_ para los lenguajes de programación.
 
@@ -68,6 +69,18 @@ Por ejemplo: Hay un gen-FKT para la fetaure "goto".
 
 **Identificar que aspectos** del lenguaje X son más **difíciles de entender** por la propia comunidad X o por los nuevos aprendices. De esta forma una comunidad X puede aplicar el principio filosófico de "conócete a tí mismo". Esto es muy valioso, ya que nos permite reforzar nuestra comunidad y/o detectar problemas en la comunidad de forma prematura.
 
+# Advertencia al lector
+
+Seguramente todo lo escrito aquí puede tener muchos fallos, inexactitudes, locuras, aparentes reinvenciones de términos que ya existen, valoraciones de jucio precipitadas o irreales, etc.
+
+Agradezco al lector:
+1. Que sea lector de este "proyecto".
+2. Se aceptan comentarios y/o críticas positivas y negativas. Las positivas darán ánimo y recargarán las pilas. Las negativas darán ideas para pasar de la versión N a la N+1. ¡Gracias de antemano!
+3. Si por alguna "confluencia extraña de los planetas" desea colaborar... primero mi asombro, luego mi felicidad y tercero... ¡adelante!
+
+Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... que lo que va a leer... yo lo creo y es mi verdad... hasta que deje de serlo si debe ser así.
+
+---
 # Contenidos
 
 1. [Licencia](LICENSE.md)
@@ -82,6 +95,7 @@ Por ejemplo: Hay un gen-FKT para la fetaure "goto".
 1. [El futuro](docs/futuro.md)
 1. [Colaborar](doc/colaborar.md)
 
+---
 # Contacto
 
 * Email: dvarrui@protonmail.com
