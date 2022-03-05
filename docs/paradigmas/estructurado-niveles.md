@@ -1,33 +1,4 @@
 
-# Paradigmas de programación
-
-Definición
-
-
-Tipos
-1. Estructurado
-2. Orientado a objetos
-3. Funcional
-
-
-# Historia
-
-## Ensamblador
-
-Empezamos programando en código máquina, y como es un rollo recordar tanto número
-tenemos la programación en ensamblador.
-
-Es imperativa
-Secuencial y tiene saltos para poder implementar los algoritmos (condicionales y bucles).
-
-## Programación estructurada
-
-Para evitar que el programador use explícitamente los saltos se crean las estructuras:
-1. Secuencial
-2. Condicional
-3. Iterativa (bucles)
-
-Esto quiere decir que desaparecen los saltos?mmm Sí y no. veamos
 
 Para evitar polémicas vamos a tener dos definiciones de programación estructurada:
 
@@ -37,8 +8,6 @@ Para evitar polémicas vamos a tener dos definiciones de programación estructur
 |     S1 | Mixta           | Prog. estructurada CON goto | C/C++ |
 |     S2 | Casi pura       | Prog. estructurada CON goto pero sin funcionalidad | Java. Cuando se defina la funcionalidad pasará a S1 o cuando se elimine del lenguaje pasará a S3. |
 |     S3 | Pura            | Programación estructurada SIN goto (Dijkstra) | Algol 60 |
-
-
 
 
 
