@@ -1,44 +1,33 @@
-
+[<< back](problema) | [Indice](../README.md) | [Next >>](paradigmas/README.md)
 
 # Objetivos
 
-## Mejorar en la programación
+# El mundo de los lenguajes de programación
 
-**El guitarrista**
+Este proyecto, es un intento de crear una especie de _"piedra roseta"_ para los lenguajes de programación.
 
-Un guitarrista puede ser muy bueno y tocar muy bien su instrumento, pero será aún mejor si
-conoce las características de su guitarra. Los límites hasta donde puede llegar con dicho instrumento.
-Este guitarrista no tiene por qué conocer afondo las características del piano... puede ser
-que un pianista le diga... aprende el piano y así sabrás. Tiene razón pero
-¿realmente me merece la pena dedicar tanto tiempo a aprender el piano si sólo quiere conocer
-las características y límites del intrumento? Quizás bastaría con hablar con un pianista y preguntar.
+```
+No queremos decir que sabiendo un lenguaje X, gracias a la "piedra roseta"
+vayamos por "arte de magia" a saber programar en el lenguaje Y.
 
-Quizás le guste lo que oye y se decida a aprender el piano.
+¡No! ¡Esto no funciona así!
+```
 
-**El Samurai**
+¿Se puede crear una "piedra roseta" para los lenguajes de programación que sea útil y práctica? Esto es, ¿ir más allá de un concepto teórico para tener "algo" que sea realmente útil?... ¡Vamos a intentarlo!
 
-De la misma forma que un Samurai usa su Katana en la lucha y puede ser buen luchador.
-Pero será aún mejor Samurai... si conoce afondo las características de su herramienta (la Katana).
-Si entiende y comprende sus límites, sus pros y contras. Podrá aprovechar todo ese conocimiento en combate.
+```
+¡No! ¡No lo intentes!
+¡Hazlo! o ¡No lo hagas! ¡Pero no lo intentes!
 
-Quizás un Samurai se pregunte ¿me merece la pena gastar X tiempo en aprender sobre el arco y la flecha?
-Para aprenderlo realmente ... no queda otro camino. Pero antes podría informarme. Preguntar. Conocer las
-características del arco y evaluar si me interesa realmente antes de emplear ese tiempo.
+mmm ¡vale! ¡Lo hago! y... ya veremos los resultados...
+```
 
-**El programador**
+Resultados esperados:
+* Si se consigue: bien. Entonces tenemos respuesta positiva a la pregunta inicial.
+* Si no se consigue: bien. Entonces tenemos respuesta negativa a la hipótesis inicial.
 
-Lo mismo para el programador. Puedo programar bien sin dominar mi herramienta (El lenguaje de programación)...
-Puede ser. ¿Seré aún mejor si conozco bien y afondo las caracteríticas de mi lenguaje? Si, sin duda.
-¿Me merece la pena dedicar tiempo a profundizar en el conocimiento de mi lenguaje de programación... cuando es posible que sólo vaya a usar un 60% del mismo?
+> Puede ser que se consigan estos objetivos, o también puede ser que se llegue a la conclusión de que no se pueden cumplir. En tal caso, al final del camino, habrá alguna respuesta (2022-02-26)
 
-Ahí no hay una respuesta única. Cada uno debe evaluar si le compensa y le merece o no la pena.
-
-¿Me merece la pena emplear tiempo para aprender un nuevo lenguaje? Depende de cada uno.
-Quizás podría ayudar el tener un poco más de informacion acerca del nuevo lenguaje
-que se quiere aprender antes de decidirse.
-
-En esta documentacion vamos a tratar de ir poco a poco poniendo información acerca de
-[las características](features/README.md) de cada [lenguaje de programación](langs/README.md).
 
 ## Definiciones de las características
 
