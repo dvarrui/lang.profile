@@ -31,9 +31,6 @@ El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
 
 # Contenidos
 
-1. [Licencia](LICENSE.md)
-1. [Prólogo](prologo.md)
-1. [El origen](origen.md)
 1. [Antecedentes](docs/antecedentes.md)
 1. [Objetivos](docs/objetivos.md)
 1. [La técnica fenicia](docs/tecnica-fenicia.md)
@@ -41,7 +38,3 @@ El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
 1. [La unidad de medida SOFA](docs/sofa.md)
 1. [Conclusiones](docs/conclusiones.md)
 1. [El futuro](docs/futuro.md)
-
-# Contacto
-
-EMAIL: dvarrui@protonmail.com
