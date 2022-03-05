@@ -24,17 +24,3 @@ Realmente lo que implícitamente están preguntando es...
 
 
 El paradigma Frankenstein, la unidad de medida SOFA y la técnica Fenicia.
-
-
-# Descripción
-
-
-# Contenidos
-
-1. [Antecedentes](docs/antecedentes.md)
-1. [Objetivos](docs/objetivos.md)
-1. [La técnica fenicia](docs/tecnica-fenicia.md)
-1. [El paradigma de Frankenstein](docs/paradigma-frankenstein.md)
-1. [La unidad de medida SOFA](docs/sofa.md)
-1. [Conclusiones](docs/conclusiones.md)
-1. [El futuro](docs/futuro.md)

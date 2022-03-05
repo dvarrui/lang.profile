@@ -32,26 +32,24 @@ Resultados esperados:
 
 > Puede ser que se consigan estos objetivos, o también puede ser que se llegue a la conclusión de que no se pueden cumplir. En tal caso, al final del camino, habrá alguna respuesta (2022-02-26)
 
-# Objetivos
+# ¿Qué es lo que buscamos?
 
-Esto son los objetivos que nos hemos propuesto con el proyecto.
+En este proyecto nos hemos propuesto:
 * Buscar la forma de conseguir definiciones de características claras y no ambiguas.
-* Identificar características de cada lenguaje de programación.
+* Identificar características que tiene/no tiene cada lenguaje de programación. Esto será el "perfilado" de lenguaje (Tener su perfil).
 
-No se busca poner a los lenguajes a competir entre sí para tener un ganador. NO, NO y NO.
-Lo que se busca es hacer un "perfilado" de los lenguajes. Ya cada uno le buscará o no su utilidad (aunque aquí también haremos alguna propuesta en ese sentido)
+> **IMPORTANTE**: No se busca poner a los lenguajes a competir entre sí para tener un ganador. NO, NO y NO. Lo que se busca es hacer un "perfilado" de los lenguajes. Ya cada uno le buscará o no su utilidad (aunque aquí también haremos alguna propuesta en ese sentido)
 
-# Indice de Contenidos
+# Contenidos
 
 1. [Licencia](LICENSE.md)
-1. [Prólogo](docs/prologo.md)
 1. [El problema](docs/problema.md)
-1. [Descripción](docs/descripcion.md)
 1. [Objetivos](docs/objetivos.md)
 1. [La técnica fenicia](docs/tecnica-fenicia.md)
 1. [El paradigma de Frankenstein](docs/paradigma-frankenstein.md)
 1. [La unidad de medida SOFA](docs/sofa.md)
 1. [Conclusiones](docs/conclusiones.md)
+1. [Utilidad](docs/utilidad.md)
 1. [El futuro](docs/futuro.md)
 1. [Colaborar](doc/colaborar.md)
 
