@@ -4,7 +4,7 @@
 
 ## Mejorar en la programación
 
-**El gjuitarrista**
+**El guitarrista**
 
 Un guitarrista puede ser muy bueno y tocar muy bien su instrumento, pero será aún mejor si
 conoce las características de su guitarra. Los límites hasta donde puede llegar con dicho instrumento.
@@ -29,8 +29,7 @@ características del arco y evaluar si me interesa realmente antes de emplear es
 
 Lo mismo para el programador. Puedo programar bien sin dominar mi herramienta (El lenguaje de programación)...
 Puede ser. ¿Seré aún mejor si conozco bien y afondo las caracteríticas de mi lenguaje? Si, sin duda.
-¿Me merece la pena dedicar tiempo a profundizar en el conocimiento de mi lenguaje de programación...
-cuando es posible que sólo vaya a usar un 60% del mismo?
+¿Me merece la pena dedicar tiempo a profundizar en el conocimiento de mi lenguaje de programación... cuando es posible que sólo vaya a usar un 60% del mismo?
 
 Ahí no hay una respuesta única. Cada uno debe evaluar si le compensa y le merece o no la pena.
 
@@ -39,12 +38,12 @@ Quizás podría ayudar el tener un poco más de informacion acerca del nuevo len
 que se quiere aprender antes de decidirse.
 
 En esta documentacion vamos a tratar de ir poco a poco poniendo información acerca de
-[las características](features.md) de cada lenguaje de programación.
+[las características](features/README.md) de cada [lenguaje de programación](langs/README.md).
 
-## Definiciones en las características
+## Definiciones de las características
 
 A veces tenemos definiciones o términos que se usan con diferente semántica por programadores de
-lenguajes diferentes. Esto nos puede llevar poblemas de comunicación/entendimiento.
+lenguajes diferentes. Esto nos puede llevar problemas de comunicación/entendimiento.
 
 ¿Se podría llevar a un concenso en las definiciones entre programadores de lenguajes diferentes?
 No lo sé. Pero vamos a:
@@ -87,7 +86,7 @@ Este [conjunto de features](features) empezó con una lista (SOFA-v.1) y ahora e
 
 Como adelanto, decir que el perfilado es como obtener una _"prueba genética de mi lenguaje de programación"_. Cada lenguaje debería tener 1 cromosoma-FKT . Y este cromosoma-FKT estar compuesto de genes-FKT. Cada gen debe decirnos o indicarnos si el lenguaje de programación tiene o no un determinado feature.
 
-Por ejemplo: Hay un gen-FKT para la fetaure "goto".
+Por ejemplo: Hay un gen-FKT para la feature "goto".
 * **Valor 1:** Si el cromosoma-FKT  tiene valor 1 en ese gen-FKT, entonces el lenguaje tiene "goto"  
 * **Valor 0:** Si el cromosoma-FKT lenguaje tiene valor 0 en ese gen-FKT, entonces no tiene "goto".
 * **Valor ?:** Este es valor desconocido. Esto quiere decir mucho. O bien la definición del feature asociado al gen-FKT no está bien definida, o bien los programadores no entienden o no conocen el feature asociado al gen-FKT. Esto daría lugar a otro paso muy interesante "La técnica fenicia" o "Frankenstein recursivo". Ya veremos.
@@ -103,14 +102,3 @@ Por ejemplo: Hay un gen-FKT para la fetaure "goto".
 ## Mejorar la formación
 
 **Identificar que aspectos** del lenguaje X son más **difíciles de entender** por la propia comunidad X o por los nuevos aprendices. De esta forma una comunidad X puede aplicar el principio filosófico de "conócete a tí mismo". Esto es muy valioso, ya que nos permite reforzar nuestra comunidad y/o detectar problemas en la comunidad de forma prematura.
-
-# Advertencia al lector
-
-Seguramente todo lo escrito aquí puede tener muchos fallos, inexactitudes, locuras, aparentes reinvenciones de términos que ya existen, valoraciones de jucio precipitadas o irreales, etc.
-
-Agradezco al lector:
-1. Que sea lector de este "proyecto".
-2. Se aceptan comentarios y/o críticas positivas y negativas. Las positivas darán ánimo y recargarán las pilas. Las negativas darán ideas para pasar de la versión N a la N+1. ¡Gracias de antemano!
-3. Si por alguna "confluencia extraña de los planetas" desea colaborar... primero mi asombro, luego mi felicidad y tercero... ¡adelante!
-
-Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... que lo que va a leer... yo lo creo y es mi verdad... hasta que deje de serlo si debe ser así.
