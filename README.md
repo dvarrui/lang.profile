@@ -45,6 +45,11 @@ Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... q
 1. [Lenguajes de programación](docs/langs/README.md)
 1. [Utilidad](docs/utilidad.md)
 
+# Instalar las utilidades de software 
+
+* Instalar Ruby.
+* `bundle install`, para instalar las gemas de Ruby.
+
 # Contacto
 
 * Email: dvarrui@protonmail.com

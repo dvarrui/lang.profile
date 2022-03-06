@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 def get_features
-  dirpath = File.join('..', 'docs', 'features')
+  dirpath = File.join('..', 'features')
   features = Dir[ "#{dirpath}/*.d" ]
 end
 
