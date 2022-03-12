@@ -16,7 +16,7 @@ class Profiler
 
   def read_features
     output = []
-    filepaths = Dir[ "#{features_dirbase}/*.d" ] 
+    filepaths = Dir[ "#{features_dirbase}/**/*.d" ] 
     filepaths.sort.each { |filepath| output <<  File.basename(filepath) }
     output
   end
