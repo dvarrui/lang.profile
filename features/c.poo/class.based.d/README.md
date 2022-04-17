@@ -17,3 +17,8 @@ obiwan = Person.new("Obiwam Kenobi")
 ```
 
 > Take a look at [Prototype-based](../prototype.based.d/README.md)
+
+
+# Enlaces de interés
+
+* https://medium.com/@crescenzojay/dont-objectify-me-or-do-class-based-vs-prototype-based-oop-e2eb6b7a5a57
