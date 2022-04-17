@@ -16,4 +16,4 @@ end
 obiwan = Person.new("Obiwam Kenobi")
 ```
 
-> Take a look at [Prototype-base](../prototype.base.d/README.md)
+> Take a look at [Prototype-based](../prototype.based.d/README.md)
