@@ -6,96 +6,122 @@ EN CONSTRUCCIÓN!!!
 (version 0.2)
 ```
 
-# frankenstein.lang
-
-Este proyecto, es un intento de crear una especie de _"piedra roseta"_ para los lenguajes de programación.
-
-```
-No queremos decir que sabiendo un lenguaje X, gracias a la "piedra roseta"
-vayamos por "arte de magia" a saber programar en el lenguaje Y.
-
-¡No! ¡Esto no funciona así!
-
-(Palabra de No-Goto-San)
-```
-
-¿Se puede crear una "piedra roseta" para los lenguajes de programación que sea útil y práctica? Esto es, ¿ir más allá de un concepto teórico para tener "algo" que sea realmente útil?... ¡Vamos a intentarlo!
-
-```
-No-Goto-Sana: ¡No! ¡No lo intentes!
-¡Hazlo! o ¡No lo hagas! ¡Pero no lo intentes!
-
-Me: mmm ¡vale! ¡Lo hago! y... ya veremos los resultados...
-```
-
-Resultados esperados:
-* Si se consigue: bien. Entonces tenemos respuesta positiva a la pregunta inicial.
-* Si no se consigue: bien. Entonces tenemos respuesta negativa a la hipótesis inicial.
-
-> Puede ser que se consigan estos objetivos, o también puede ser que se llegue a la conclusión de que no se pueden cumplir. En tal caso, al final del camino, habrá alguna respuesta (2022-02-26) "Palabra de No-Goto-San"
-
-# Objetivos de Frankenstein.lang
-
-Esto son los objetivos que nos hemos propuesto con el proyecto **frankenstein.lang (FKT)**.
-
-## Definir de forma no ambigua
-
-**Establecer definiciones no ambiguas** de los términos asociados a los lenguajes de programación (en la medida de lo posible) que nos permitan unificar la visión que tenemos de los mismos. Si no conseguimos eliminar la ambigüedad de todos los términos, si por lo menos reducirla al máximo e identificar terminos "blanco-negro" y/o términos "grises".
-
-## Perfilado
-
-Una vez tengamos un conjunto de definiciones (features) para trabajar, podemos aplicarlas a los lenguajes de programación, de modo que podemos conseguir tener un perfil de cada uno.
-
-> Vuelvo a insistir. El perfilado NO pone nota o valor a los lenguajes de programación para segregar o competir. ¡NO! El perfilado simplemente es una "foto" del lenguaje. Para valorar, ya cada uno que lo haga en su cabeza.
-
-Este [conjunto de features](features) empezó con una lista (SOFA-v.1) y ahora estamos en SOFA-v2. Y me temo que seguirá aumentando. En el futuro siempre hay evolución, cambio y aparición de nuevas features... sólo espero que vaya más despacio que este proyecto para que no de tiempo a irlo cubriendo. :-)
-
-Como adelanto, decir que el perfilado es como obtener una _"prueba genética de mi lenguaje de programación"_. Cada lenguaje debería tener 1 cromosoma-FKT . Y este cromosoma-FKT estar compuesto de genes-FKT. Cada gen debe decirnos o indicarnos si el lenguaje de programación tiene o no un determinado feature.
-
-Por ejemplo: Hay un gen-FKT para la fetaure "goto".
-* **Valor 1:** Si el cromosoma-FKT  tiene valor 1 en ese gen-FKT, entonces el lenguaje tiene "goto"  
-* **Valor 0:** Si el cromosoma-FKT lenguaje tiene valor 0 en ese gen-FKT, entonces no tiene "goto".
-* **Valor ?:** Este es valor desconocido. Esto quiere decir mucho. O bien la definición del feature asociado al gen-FKT no está bien definida, o bien los programadores no entienden o no conocen el feature asociado al gen-FKT. Esto daría lugar a otro paso muy interesante "La técnica fenicia" o "Frankenstein recursivo". Ya veremos.
-
-## Similitudes y diferencias
-
-**Identificar similitudes y diferencias** entre el lenguaje de programación X y el lenguaje Y. Esto nos puede dar una visión panorámica de un lenguaje Y antes de aprenderlo.
-
-## Mejorar la comunicación
-
-**Mejorar la comunicación** entre un programador del lenguaje X y otro del lenguaje Y. Con esto reducimos los tiempos de resolución de las discusiones/debates que se establecen entre programadores de ambos mundos. Normalmente las conversaciones suelen ser más fluídas entre programadores de mundos "cercanos" porque la forma de pensar es similar y usamos términos similares. Pero entre programadores de diferentes "mundos" ya la comunicación se vuelve lenta, pesada ... Se busca la felicidad de los programadores en estas charlas.
-
-## Mejorar la formación
-
-**Identificar que aspectos** del lenguaje X son más **difíciles de entender** por la propia comunidad X o por los nuevos aprendices. De esta forma una comunidad X puede aplicar el principio filosófico de "conócete a tí mismo". Esto es muy valioso, ya que nos permite reforzar nuestra comunidad y/o detectar problemas en la comunidad de forma prematura.
-
 # Advertencia al lector
 
-Seguramente todo lo escrito aquí puede tener muchos fallos, inexactitudes, locuras, aparentes reinvenciones de términos que ya existen, valoraciones de jucio precipitadas o irreales, etc.
+Tengo un tema sobre lenguajes de programación que me gustaría comentar. Es un poco largo. ¡Vamos allá!
+
+* No soy experto de nada.
+* No sé ni más ni menos que nadie.
+* No pretendo convencer a nadie.
+
+Seguramente todo lo escrito aquí puede tener:
+* Muchos fallos, inexactitudes, locuras.
+* Aparentes reinvenciones de términos que ya existen.
+* Valoraciones de juicio precipitadas o irreales.
+* etc.
 
 Agradezco al lector:
-1. Que sea lector de este "proyecto".
-2. Se aceptan comentarios y/o críticas positivas y negativas. Las positivas darán ánimo y recargarán las pilas. Las negativas darán ideas para pasar de la versión N a la N+1. ¡Gracias de antemano!
-3. Si por alguna "confluencia extraña de los planetas" desea colaborar... primero mi asombro, luego mi felicidad y tercero... ¡adelante!
+1. Primero que sea lector de este "proyecto".
+2. Se aceptan, por supuesto, comentarios y/o críticas positivas y negativas. Las positivas darán ánimo y recargarán las pilas. Las negativas darán ideas para mejorar y corregir. Y pasar de la versión N a la N+1.
+3. Si por alguna "confluencia extraña de los planetas" desea colaborar... primero mi asombro, segundo mi alegría, y tercero... ¡adelante!
 
-Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... que lo que va a leer... yo lo creo y es mi verdad... hasta que deje de serlo si debe ser así.
+Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... que lo que va a leer... yo lo creo, y es mi opinión...  hasta que deje de serlo si así debe ser.
 
----
+¡Gracias!
+
+# Introducción
+
+Verás... los programadores conocemos varios lenguajes de programación... pero no los conocemos todos... En mi opinión es un "auto-engaño" cuando decimos que _hay que escoger el lenguaje adecuado para cada problema_. En realidad eso nunca nadie lo hace. Lo que hacemos es escoger el lenguaje más adecuado de los 4 o 5 que conocemos.  
+
+**Punto 1: El mito de la mejor herramienta**
+
+La "mejor" herramienta lo es... hasta que conocemos a otra "mejor" y a así "while(true)".
+Pero SI es cierto que escogemos la "mejor" entre lo que conocemos.
+
+> NOTA: Otro debate es definir "mejor". Lo dejamos para más adelante.
+
+Cada programador cuando aprende bien un lenguaje... inevitablemente debe adaptar su forma de pensar al estilo del lenguaje que quiere usar ... si lo quiere hacer bien.
+
+> Una cosa es aprender un lenguaje de programación para resolver los problemas que me encuentre... y otra es conocerlo para hacerlo como un profesional del lenguaje. ;-)
+
+Aprender un nuevo lenguaje... es como hablar otro idioma. Hay que pensar en ese idioma y cambia mucho o poco depende de cuanto se parezca ese idioma a tu idioma natal.
+
+El idioma natal... da forma y estructura a nuestros pensamientos..  es bueno conocer otros idiomas/lenguajes para abrir la mente. Los bilingües en eso nos llevan un poco de ventaja. Pero esto se puede alcanzar con tiempo, práctica y estudio de nuestra herramienta.
+
+> Es interesante la lectura del "Libro de los cinco anillos" (o de las cinco esferas) de Miyamoto Musashi.
+
+**Punto 2: Aprender varios lenguajes**
+
+Es bueno aprender varios lenguajes... a ser posible dominar al menos 2 (o 3). Pero imposible conocerlos todos.
+
+Entre programadores hablamos de asuntos de programación (es divertido)... pero a veces el lenguaje de programación es una barrera para entendernos. Algunos forman "clanes" y "sectas cerradas" de pensamiento...
+
+**Punto 3: Relacionarse en la variedad para mejorar**
+
+Creo que es buena idea relacionarse en la variedad.  Sin malos rollos.
+
+Por los puntos 1  2 y 3..  me pareció buena idea hacer algo al respecto... una especie de tabla roseta o perfilado de algunos lenguajes para ayudar a entendernos un poco mejor sin tener que gastar tanto tiempo aprendiendo otro lenguaje.
+
+**Punto 4: El idioma no debe ser una barrera**
+
+No es necesario que aprenda polaco para entenderme con un polaco, o que aprenda chino para entenderme con un chino. Pues lo mismo en los lenguajes de programación.
+
+Mejorar la comunicación entre comunidades de pensamiento de lenguajes de programación diferentes me pareció un buen camino a recorrer (Seguramente largo, tortuoso y sin un final de éxito garantizado. Sólo hay garantías de que habrá que caminar mucho).
+
+# ¿Qué se busca?
+
+En este proyecto se propone:
+* Buscar una forma de establecer definiciones de características de los lenguajes de programación, que sean claras, no ambiguas y aceptadas por todos los programadores (_Esto ya va a ser casi imposible_ ;-)).
+* Identificar las características que tiene o que no tiene cada lenguaje de programación. Esto será el "perfilado" de lenguaje (Tener su perfil).
+
+> **IMPORTANTE**: No se busca poner a los lenguajes un valor. Ni competir entre sí para tener un ganador. NO, NO y NO. Lo que se busca es hacer un "perfilado" o identificación de los atributos de los lenguajes. Ya cada cual... le buscará o no su utilidad (aunque aquí también se hará alguna propuesta en ese sentido).
+
+**Punto 5: Si se te ocurre algo para mejorar... hazlo**
+
+Se me ocurre que se podría definir un catálogo de "features v1", que podrá ir evolucionando con el tiempo, aunque espero que se llegue a estabilizar algún día.
+
+Este catálogo de [features](features) irá recogiendo características que todos los programadores de todos los lenguajes entendamos de la misma forma. En caso de que alguna "feature" no esté clara o genere discusión... seguramente habrá revisarla y podrá eventualmente convertirse en 2 features más claras o mejor definidas. El catálogo evolucionará.
+
+Cada programador conocedor del lenguaje X podrá ayudarnos a definir el "perfil X" para crear una base de datos de perfiles. Se está haciendo un [programa para ayudar a crear el perfil](bin), pero está en desarrollo todavía.   
+
+Cada desarrollador DEV en la fecha TIMESTAMP podrá hacer el perfil PROFILE de su lenguaje LANGUAGE. Esto nos permitirá crear una base de datos de la forma (Ejemplo):
+
+```
+DEVELOPER_ID:TIMESTAMP:LANGUAJE:FEATURE_VERSION:PROFILE
+obiwan:20220101-1200:Ruby:1:datos-del-perfil
+yoda:20220102-1130:Java:1:datos-del-perfil
+```
+
+# Resultado final
+
+Con esta base de datos espero que podamos conseguir:
+* Identificar features de cada lenguaje y de esta forma permitir identificar forma sencilla que aspectos de X son iguales a Y y cuáles son diferentes. Esto (por lo menos a mí) nos ayudaría a tener una base clara para que un desarrollador de X se entienda mejor con un desarrollador de Y.
+* Si resulta que en el perfilado se detecta que, por ejemplo para el lenguaje X... hay una feature fZ en la que los programadores de X no se ponen de acuerdo... esto hay que revisarlo. Es interesante porque querrá decir lo siguiente:
+    1. La feature fZ no está bien definida y hay que mejorar el catálogo.
+    2. La feature fZ es poco conocida o mal entendida. Los programadores de X tienen diferente nivel de conocimiento y la feature fZ es compleja y debe hacerse incapié en su enseñanza o mejorar la documentación. O quizás es una característica que tiene poca repercusión entre la mayoría de los programadores X.
+    3. Se pueden detectar lenguajes A,B,C que tienen un alto grado de cercanía con X y por tanto me supondrán un mejor esfuerzo aprenderlos.
+    4. Se pueden detectar lenguajes E,F,G que tienen un bajo grado de cercanía con X y por tanto me puede ser interesante aprenderlos para ampliar mi abanico de habilidades como desarrolador.
+
+
 # Contenidos
 
 1. [Licencia](LICENSE.md)
-1. [Prólogo](docs/prologo.md)
-1. [El origen](docs/origen.md)
-1. [Descripción](docs/descripcion.md)
+1. El [problema](docs/problema.md)
 1. [Objetivos](docs/objetivos.md)
-1. [La técnica fenicia](docs/tecnica-fenicia.md)
-1. [El paradigma de Frankenstein](docs/paradigma-frankenstein.md)
-1. [La unidad de medida SOFA](docs/sofa.md)
-1. [Conclusiones](docs/conclusiones.md)
-1. [El futuro](docs/futuro.md)
-1. [Colaborar](doc/colaborar.md)
+1. [Paradigmas de programación](docs/paradigmas/README.md)
+1. [Características](docs/features/README.md)
+1. [Lenguajes de programación](docs/langs/README.md)
+1. [Utilidad](docs/utilidad.md)
 
----
+# Instalar las utilidades de software
+
+`EN CONSTRUCCIÓN!!!`
+
+En desarrollo hay una aplicación para ayudar al usuario a crear el "perfil" de su lenguage favorito.
+
+* Instalar Ruby.
+* `bundle install`, para instalar las gemas de Ruby.
+
 # Contacto
 
 * Email: dvarrui@protonmail.com
