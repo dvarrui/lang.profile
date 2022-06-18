@@ -25,5 +25,7 @@ De hechoi, excepto por la pertenencia a un objeto o no, un método es un superco
 
 Veamos ejemplos:
 
-* [ruby1-function.rb](ruby1-function.rb)
-* [ruby2-lambda.rb](ruby2-lambda.rb)
+* [ruby1-function.rb](ruby1-function.rb): Function
+* [ruby2-lambda.rb](ruby2-lambda.rb): Lambda function
+* [ruby3-method.rb](ruby3-method.rb): Instance method
+* [ruby4-method.rb](ruby4-method.rb): Class method or static method.
