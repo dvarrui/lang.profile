@@ -20,8 +20,8 @@ Coincidencias entre función y método:
 * A un método tiene acceso implícitamente al objeto al cual pertenece.
 * Puede operar en datos contenidos dentro de la clase.
 
-En la mayoría de los aspectos, un método es idéntico a una función.
-De hechoi, excepto por la pertenencia a un objeto o no, un método es un superconjunto de la función.
+En muchos aspectos, un método es idéntico a una función.
+De hecho, excepto por la pertenencia a un objeto o no, un método es un superconjunto de la función.
 
 Veamos ejemplos:
 
