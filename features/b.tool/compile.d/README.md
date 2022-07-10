@@ -2,7 +2,7 @@
 # Compilar
 
 Estos lenguajes de programación requieren ser compilados con anterioridad a su ejecución.
-No se tienen en cuenta los lenguajes con herramientas de compilación JIT (Just In Time)
+No se tienen en cuenta los lenguajes con herramientas de compilación JIT (Just In Time).
 
 Ejemplos:
 * C/C++
