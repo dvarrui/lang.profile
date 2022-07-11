@@ -13,7 +13,7 @@ class Feature
 
   def self.show(features)
     features.keys.each do |group|
-      puts "[ #{group.ljust(8)} ] #{features[group].join(', ')}"
+      puts "[ #{group.ljust(9)} ] #{features[group].join(', ')}"
     end
   end
 end
