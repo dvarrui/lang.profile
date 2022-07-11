@@ -5,7 +5,7 @@ module Load
 
   def self.features
     output = {}
-    filepaths = Dir[ "#{features_dirbase}/**/*.d" ]
+    filepaths = Dir[ "#{features_dirbase}/g?.*/f?.*" ]
     filepaths.sort.each do |filepath|
       group = File.basename(File.dirname(filepath))
       filename = File.basename(filepath)
