@@ -8,14 +8,11 @@ Un lenguaje de programación tiene tipado dinámico cuando:
 
 Hay lenguajes como por ejemplo Rust que son capaces de inferir el tipo de datos en algunas situaciones. Aún así se considera tipado estático porque se require "conocer" el tipo de dato de cada variable y/o función previo a la ejecución del programa.
 
-# Observaciones
+# Aclaraciones
 
-* La mayoría de lenguajes de tipado dinámico son lenguajes interpretados, como Python o Ruby.
-* Un lenguaje que no es dinámicamente tipado se dice que es de tipado estático, o estáticamente tipado.
-
-> Esta separación se suele confundir con la diferencia entre lenguajes fuertemente tipados y lenguajes débilmente o no tipados. Esta característica estuvo en el lenguaje de programación "SmallTalk".
-
-Ejemplos de lenguajes con tipado dinámico: Bash, Python, Ruby, etc.
+* Esta separación se suele confundir con la diferencia entre lenguajes fuertemente tipados y lenguajes débilmente o no tipados. Esta característica estuvo en el lenguaje de programación "SmallTalk".
+* La mayoría de lenguajes de tipado dinámico son lenguajes interpretados, como Python o Ruby, pero no tiene por qué ser así obligatoriamente.
+* Ejemplos de lenguajes con tipado dinámico: Bash, Python, Ruby, etc.
 
 # Ejemplo
 
@@ -29,11 +26,10 @@ Arithmetic/Integer example:
 * For remainder, indicate whether its sign matches the sign of the first operand or of the second operand, if they are different.
 
 Ejemplos:
-* [C](example_c.c)
-* [Rust](example_rust.rs)
+* [Python](example_python.py)
+* [Ruby](example_ruby.rb)
 
-
-## Ejemplo
+# Más ejemplos
 
 ```ruby
 name = "Obiwan"

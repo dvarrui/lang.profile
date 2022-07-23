@@ -11,6 +11,12 @@ Un lenguaje de programación tiene tipado estático cuando:
 
 Hay lenguajes como por ejemplo Rust que son capaces de inferir el tipo de datos en algunas situaciones. Aún así se considera tipado estático porque se require "conocer" el tipo de dato de cada variable y/o función previo a la ejecución del programa.
 
+# Aclaraciones
+
+* Esta separación se suele confundir con la diferencia entre lenguajes fuertemente tipados y lenguajes débilmente o no tipados.
+* La mayoría de lenguajes de tipado estático son lenguajes compilados, pero no tiene por qué ser así obligatoriamente. Tenemos de contraejemplo Typescript.
+* Ejemplos de lenguajes con tipado estático: C, Rust, Typescript.
+
 # Ejemplo
 
 Arithmetic/Integer example:
