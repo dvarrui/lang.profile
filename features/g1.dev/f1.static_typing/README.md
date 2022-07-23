@@ -4,14 +4,17 @@
 > Enlaces de interés:
 > * https://rosettacode.org/wiki/Arithmetic/Integer
 
-[Wikipedia]
-_Se dice de un lenguaje de programación que usa un tipado estático cuando la comprobación de tipificación se realiza durante la compilación, y no durante la ejecución. Ejemplos de lenguajes que usan tipado estático son C, C++, Java y Haskell. Comparado con el tipado dinámico, el estático permite que los errores de tipificación sean detectados antes, y que la ejecución del programa sea más eficiente y segura._ 
+Un lenguaje de programación tiene tipado estático cuando:
+* Es necesario especificar el tipo de dato que guardará cada variable.
+* Es necesario especificar el tipo de dato que devuelve cada función.
+* Es necesario conocer el tipo de dato de cada variable/función previamente a la ejecución del programa.
 
-_Hay frecuentemente conflictos entre aquellos que prefieren la tipificación fuerte y/o estática y aquellos que se inclinan por la tipificación dinámica, libre o débil. El primer grupo aboga por la detección temprana de errores durante la compilación y el aumento de rendimiento en tiempo de ejecución, mientras que el segundo grupo aboga por los prototipos rápidos que son posibles con un sistema de tipificación dinámico._
+Hay lenguajes como por ejemplo Rust que son capaces de inferir el tipo de datos en algunas situaciones. Aún así se considera tipado estático porque se require "conocer" el tipo de dato de cada variable y/o función previo a la ejecución del programa.
 
-# Ejemplo: Arithmetic/Integer
+# Ejemplo
 
-* Get two integers from the user, and then (for those two integers), display their: sum, difference, product, integer quotient, remainder, exponentiation (if the operator exists) 
+Arithmetic/Integer example:
+* Get two integers from the user, and then (for those two integers), display their: sum, difference, product, integer quotient, remainder, exponentiation (if the operator exists)
 * Don't include error handling.
 * For quotient, indicate how it rounds   (e.g. towards zero, towards negative infinity, etc.).
 * For remainder, indicate whether its sign matches the sign of the first operand or of the second operand, if they are different.
@@ -19,4 +22,3 @@ _Hay frecuentemente conflictos entre aquellos que prefieren la tipificación fue
 Ejemplos:
 * [C](static_typing.c)
 * [Rust](static_typing.rs)
-
