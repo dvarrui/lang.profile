@@ -19,7 +19,6 @@ module Load
   private
 
   def self.features_dirbase
-    dirbase = File.dirname(__FILE__)
-    File.join(dirbase, '..', 'features')
+    File.join('features')
   end
 end

@@ -9,6 +9,7 @@ class Profiler
   end
 
   def show_features
+    puts "==> [Profiler] Show features"
     Feature.show(@features)
   end
 end
