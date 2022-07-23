@@ -1,5 +1,6 @@
-puts 'Enter x, and then y: '
+print "Enter x: "
 x = gets.to_i  # to check errors, use x=Integer(gets)
+print "Enter y: "
 y = gets.to_i
 
 puts "Sum: #{x+y}"
