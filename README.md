@@ -8,21 +8,23 @@ EN CONSTRUCCIÓN!!!
 
 # Advertencia al lector
 
-Tengo un tema sobre lenguajes de programación que me gustaría comentar. Es un poco largo. ¡Vamos allá!
+Esto va de lenguajes de programación, su diseño y características. Es un poco largo. ¡Vamos allá!
 
 * No soy experto de nada.
-* No sé ni más ni menos que nadie.
+* No sé ni más, ni menos que nadie.
 * No pretendo convencer a nadie.
 
 Seguramente todo lo escrito aquí puede tener:
 * Muchos fallos, inexactitudes, locuras.
-* Aparentes reinvenciones de términos que ya existen.
+* Reinvenciones de términos que ya existen.
 * Valoraciones de juicio precipitadas o irreales.
 * etc.
 
+Todo esto trataré de irlo "puliendo" a medida que aprenda más cosas o mejore mi conocimiento sobre las que ya conozco.
+
 Agradezco al lector:
 1. Primero que sea lector de este "proyecto".
-2. Se aceptan, por supuesto, comentarios y/o críticas positivas y negativas. Las positivas darán ánimo y recargarán las pilas. Las negativas darán ideas para mejorar y corregir. Y pasar de la versión N a la N+1.
+2. Se aceptan, por supuesto, comentarios y/o críticas constructivas positivas y negativas. Las positivas darán ánimo y recargarán las pilas. Las negativas darán ideas para mejorar y corregir. Y todo esto ayudará a pasar de la versión N a la N+1.
 3. Si por alguna "confluencia extraña de los planetas" desea colaborar... primero mi asombro, segundo mi alegría, y tercero... ¡adelante!
 
 Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... que lo que va a leer... yo lo creo, y es mi opinión...  hasta que deje de serlo si así debe ser.
@@ -31,24 +33,31 @@ Nada de lo que vaya a leer tiene porque creerlo o ser verdad. Sólo prometo... q
 
 # Introducción
 
-Verás... los programadores conocemos varios lenguajes de programación... pero no los conocemos todos... En mi opinión es un "auto-engaño" cuando decimos que _hay que escoger el lenguaje adecuado para cada problema_. En realidad eso nunca nadie lo hace. Lo que hacemos es escoger el lenguaje más adecuado de los 4 o 5 que conocemos.  
+Verás... los programadores conocemos varios lenguajes de programación... pero no los conocemos todos... En el proyecto [RossetaCode](https://rosettacode.org/wiki/Rosetta_Code) hay una lista de 870 lenguajes de programación. Y según Uncle Bob, aparece un lenguaje nuevo cada año.
+
+En mi opinión es un "auto-engaño" cuando decimos que _hay que escoger el lenguaje adecuado para cada problema_. En realidad eso nunca nadie lo hace. Lo que hacemos es escoger el lenguaje más adecuado de entre los 4 o 5 que conocemos.  
+
+> Conocer un lenguaje no es lo mismo que dominar un lenguaje.
 
 **Punto 1: El mito de la mejor herramienta**
 
 La "mejor" herramienta lo es... hasta que conocemos a otra "mejor" y a así "while(true)".
-Pero SI es cierto que escogemos la "mejor" entre lo que conocemos.
+Pero SI es cierto, que tratamos de escogemos la "mejor" herramienta/lenguaje de entre las que conocemos.
 
-> NOTA: Otro debate es definir "mejor". Lo dejamos para más adelante.
+> **El debate del mejor**
+> Otro debate es definir "mejor". Lo dejamos para más adelante. Digo que el tema da para un debate porque genera muchos "flamewars". Para encontrar al "mejor" hay que definir el parámetro que establece el criterio de ordenación de mejor a peor. Por ejemplo supongamos que definimos mejor lenguaje aquel que genera un programa que al ejecutarse emplea o consume el menor tiempo posible. Esto es, lenguaje que genera el programa más rápido en ejecución. Bueno, entonces la forma de probarlo es tener un programa por cada lenguaje X y medir los tiempos. ¡Y listo! Tendremos una clasificación.
+> Lo que suele pasar en que nuestra definición de "mejor" consiste en una lista de varios paraḿetros. Supongamos por ejemplo P1 (Tiempo de ejecución mínimo) y P2 (Número de bytes que ocupa el programa). Aquí aunque nos pongamos deacuerdo con la lista de parámetros P1, P2,, P3, etc. Otro problema sería darle pesos de importancia a cada uno.
+> Vamos que el camino para encontrar "el mejor" se complica. Así que voy a dejar este asunto por ahora. y sigo...
 
-Cada programador cuando aprende bien un lenguaje... inevitablemente debe adaptar su forma de pensar al estilo del lenguaje que quiere usar ... si lo quiere hacer bien.
+Cada programador cuando aprende un nuevo lenguaje... inevitablemente debe adaptar su forma de pensar al estilo del lenguaje que quiere aprender, para usarlo ... si lo quiere hacer de forma apropiada.
 
 > Una cosa es aprender un lenguaje de programación para resolver los problemas que me encuentre... y otra es conocerlo para hacerlo como un profesional del lenguaje. ;-)
 
 Aprender un nuevo lenguaje... es como hablar otro idioma. Hay que pensar en ese idioma y cambia mucho o poco depende de cuanto se parezca ese idioma a tu idioma natal.
 
-El idioma natal... da forma y estructura a nuestros pensamientos..  es bueno conocer otros idiomas/lenguajes para abrir la mente. Los bilingües en eso nos llevan un poco de ventaja. Pero esto se puede alcanzar con tiempo, práctica y estudio de nuestra herramienta.
+El idioma natal... da forma y estructura a nuestros pensamientos. Es bueno conocer otros idiomas/lenguajes para abrir la mente y tener varios puntos de vista. Los bilingües en eso nos llevan un poco de ventaja. Pero esto se puede alcanzar con tiempo, práctica y estudio de nuestra herramienta.
 
-> Es interesante la lectura del "Libro de los cinco anillos" (o de las cinco esferas) de Miyamoto Musashi.
+> Es interesante la lectura del "Libro de los cinco anillos" (o de las cinco esferas) de Miyamoto Musashi, en relación a la importancia de dominar las habilidades para ser un profesional.
 
 **Punto 2: Aprender varios lenguajes**
 
@@ -60,13 +69,13 @@ Entre programadores hablamos de asuntos de programación (es divertido)... pero 
 
 Creo que es buena idea relacionarse en la variedad.  Sin malos rollos.
 
-Por los puntos 1  2 y 3..  me pareció buena idea hacer algo al respecto... una especie de tabla roseta o perfilado de algunos lenguajes para ayudar a entendernos un poco mejor sin tener que gastar tanto tiempo aprendiendo otro lenguaje.
+Por los puntos anteriores...  me pareció buena idea hacer algo al respecto... una especie de tabla roseta o perfilado de algunos lenguajes para ayudar a entendernos un poco mejor sin tener que gastar tanto tiempo en discusiones o aprendiendo muchos lenguajes que no vamos a usar, etc..
 
 **Punto 4: El idioma no debe ser una barrera**
 
-No es necesario que aprenda polaco para entenderme con un polaco, o que aprenda chino para entenderme con un chino. Pues lo mismo en los lenguajes de programación.
+No debería ser necesario aprender polaco para entenderme con un polaco, o aprender chino para entenderme con un chino. Estaría bien. Pero no tenemos tiempo en la vida para aprender todos los lenguajes para poder entendernos con todos. Pues lo mismo en los lenguajes de programación.
 
-Mejorar la comunicación entre comunidades de pensamiento de lenguajes de programación diferentes me pareció un buen camino a recorrer (Seguramente largo, tortuoso y sin un final de éxito garantizado. Sólo hay garantías de que habrá que caminar mucho).
+La idea de mejorar la comunicación entre comunidades de pensamiento de lenguajes de programación diferentes me pareció un buen camino a recorrer (Seguramente largo, tortuoso y sin un final garantizado. Sólo hay garantías de que habrá que caminar mucho).
 
 # ¿Qué se busca?
 
@@ -127,4 +136,4 @@ En desarrollo hay una aplicación para ayudar al usuario a crear el "perfil" de 
 
 # Contacto
 
-* Email: dvarrui@protonmail.com
+* Email: dvarrui@proton.me
