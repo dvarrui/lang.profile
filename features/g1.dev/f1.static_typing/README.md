@@ -20,5 +20,5 @@ Arithmetic/Integer example:
 * For remainder, indicate whether its sign matches the sign of the first operand or of the second operand, if they are different.
 
 Ejemplos:
-* [C](static_typing.c)
-* [Rust](static_typing.rs)
+* [C](example_c.c)
+* [Rust](example_rust.rs)
