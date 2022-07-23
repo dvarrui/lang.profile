@@ -92,6 +92,9 @@ obiwan:20220101-1200:Ruby:1:datos-del-perfil
 yoda:20220102-1130:Java:1:datos-del-perfil
 ```
 
+> Enlaces de interés:
+> * [Roseeta Code - Basic language learning](https://rosettacode.org/wiki/Category:Basic_language_learning)
+
 # Resultado final
 
 Con esta base de datos espero que podamos conseguir:
