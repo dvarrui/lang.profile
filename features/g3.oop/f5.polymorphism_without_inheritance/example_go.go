@@ -1,32 +1,39 @@
+// go build FILE.go
 package main
  
-import "fmt"
+import (
+    "fmt"
+)
  
-type rectangle struct {
-    x, y float64
+type Greeter interface {
+    greet() string
 }
  
-type circle struct {
-    r float64
+type Human struct {
+    Name string
 }
  
-type printer interface {
-    print()
+func (h *Human)greet() string {
+    return "[" + h.Name + "] Hello there!" 
 }
- 
-func (p *point) print() {
-    fmt.Println(p.x, p.y)
+
+type Robot struct {
+    Model string
 }
- 
-func (c *circle) print() {
-    fmt.Println(c.r)
+
+func (r *Robot)greet() string {
+    return "[" + r.Model + "] Beep, beep, beep." 
+}
+
+func greetPlease(h Greeter) {
+    fmt.Println(h.greet())
 }
  
 func main() {
-    var i  printer      // polymorphic variable
-    i = Rectangle(3, 4) // assign one type
-    i.print()           // call polymorphic function
-    i = Circle(2)       // assign different type to same variable
-    i.print()           // same call accesses different method now.
+    var obiwan = Human{"Obywan"}
+    var r2d2 = Robot{"R2-D2"}
+     
+    greetPlease(&obiwan) 
+    greetPlease(&r2d2) 
 }
- 
+

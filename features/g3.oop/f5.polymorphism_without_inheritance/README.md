@@ -14,7 +14,8 @@ Los lenguajes de programación con tipado estático, requieren del uso de `Inter
 
 Los lenguajes de programación con tipado dinámico no tienen necesidad de usar las Interfaces. Mientras los objetos de diferente tipo respondan a la invocación del método, tendremos polimorfismo.
  
-* [Ruby example](example_ruby.rb)
+* [Go example](example_go.go) usando interfaces.
+* [Ruby example](example_ruby.rb) aprovechando la característica de "Duck typing".
 
 # Más información
 
