@@ -1,16 +1,19 @@
-// go build FILE.go
+// go build FILE => compile
+// go run   FILE => run
+
 package main
  
 import (
     "fmt"
 )
  
-type Greeter interface {
+type Character interface {
     greet() string
 }
  
 type Human struct {
     Name string
+    Age int
 }
  
 func (h *Human)greet() string {
@@ -18,20 +21,21 @@ func (h *Human)greet() string {
 }
 
 type Robot struct {
+    Name string
     Model string
 }
 
 func (r *Robot)greet() string {
-    return "[" + r.Model + "] Beep, beep, beep." 
+    return "[" + r.Name + "] Beep, beep, beep." 
 }
 
-func greetPlease(h Greeter) {
+func greetPlease(h Character) {
     fmt.Println(h.greet())
 }
  
 func main() {
-    var obiwan = Human{"Obywan"}
-    var r2d2 = Robot{"R2-D2"}
+    var obiwan = Human{"Obywan", 52}
+    var r2d2 = Robot{"R2-D2", "Astromech droid"}
      
     greetPlease(&obiwan) 
     greetPlease(&r2d2) 
