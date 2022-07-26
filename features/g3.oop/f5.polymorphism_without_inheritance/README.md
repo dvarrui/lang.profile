@@ -9,6 +9,11 @@ Propiedad por la que es posible enviar mensajes sintácticamente iguales a objet
 
 # Ejemplos
 
+Los lenguajes de programación con tipado estático, requieren del uso de `Interfaces` para poder implementar el polimorfismo entre objetos que no tienen relación de herencia entre ellos. Por ejemplo:
+* Java
+
+Los lenguajes de programación con tipado dinámico no tienen necesidad de usar las Interfaces. Mientras los objetos de diferente tipo respondan a la invocación del método, tendremos polimorfismo.
+ 
 * [Ruby example](example_ruby.rb)
 
 # Más información

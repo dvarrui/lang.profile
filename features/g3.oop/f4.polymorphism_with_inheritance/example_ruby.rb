@@ -1,4 +1,4 @@
-# Polymorphism
+# Polymorphism with inheritance
 
 class Shape
   def area
