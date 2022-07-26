@@ -34,8 +34,8 @@ func greetPlease(h Character) {
 }
  
 func main() {
-    var obiwan = Human{"Obywan", 52}
-    var r2d2 = Robot{"R2-D2", "Astromech droid"}
+    obiwan := Human{"Obywan", 52}
+    r2d2 := Robot{"R2-D2", "Astromech droid"}
      
     greetPlease(&obiwan) 
     greetPlease(&r2d2) 

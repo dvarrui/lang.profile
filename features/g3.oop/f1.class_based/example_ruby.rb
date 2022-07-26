@@ -19,7 +19,7 @@ puts "  * obiwan.class = #{obiwan.class}"
 
 yoda = Person.new("Yoda")
 
-puts obiwan.methods == yoda.methods
-puts obiwan.class == yoda.class
-puts Person.ancestors.to_s
+puts "  - obiwan.methods == yoda.methods? #{obiwan.methods == yoda.methods}"
+puts "  - obiwan.class   == yoda.class?   #{obiwan.class == yoda.class}"
+puts "  - Person.ancestors: " + Person.ancestors.to_s
  
