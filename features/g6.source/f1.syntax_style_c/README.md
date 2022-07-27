@@ -10,6 +10,7 @@ Lenguajes de programación con este estilo:
 * C/C++
 * C#
 * Java
+* Perl, PHL, PowerShell
 * Apex
 * Revise: Aikido, Aime 
 
