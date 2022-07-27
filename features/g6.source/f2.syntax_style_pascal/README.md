@@ -2,9 +2,8 @@
 
 # Pascal syntax style 
 
-* Las expresiones entre paréntesis.
-* Los bloques de instrucciones entre llaves.
-* Cada línea acaba en punto y coma.
+* Los bloques de instrucciones entre BEGIN-END.
+* Cada línea se separa de la anterior por punto y coma.
 
 Lenguajes de programación con este estilo:
 * Action!
@@ -15,11 +14,15 @@ Lenguajes de programación con este estilo:
 
 Estructura de control condicional:
 ```
-if (cond) {
-  /* multiple expressions */
-} else  {
-  /* multiple expressions */
-}
+IF condition1 THEN
+  BEGIN
+    procedure1;
+    procedure2
+  END
+ELSE
+  BEGIN
+    procedure3;
+    procedure4
+  END;
 ```
-
 
